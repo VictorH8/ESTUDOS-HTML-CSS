@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    font-family: arial;
+}
+
+div.bloco {
+    background-image: url(../img/wallpaper003.jpg);
+    width: 90%;
+    height: 180px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+div#q1 {
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+div#q2 {
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+div#q3 {
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+div#q4 {
+    background-repeat: no-repeat;
+    background-position: center center;
+}
