@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
+}
+
+body {
+  background-image: url(img/pexels-rafael-cerqueira-4737484.jpg);
+  background-size: cover;
+}
+
+header {
+  display: inline-block;
+}
+
+.logo {
+  display: inline-block;
+  padding-top: 10px;
+  padding-right: 980px;
+  padding-left: 11px;
+}
+
+nav {
+  display: inline-block;
+}
+
+ul {
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+a:hover {
+  border-bottom: 2px solid white;
+}
+
+.meio {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-top: 100px;
+  margin-left: 40%;
+  padding-top: 15%;
+}
+
+.button {
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.13);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  width: 130px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: rgb(16, 16, 105);
+}
