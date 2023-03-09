@@ -14,14 +14,22 @@ body h1 {
 }
 
 table {
-    width: 500px;
+    width: 600px;
     border-collapse: collapse;
     border: 1px solid black;
     margin: auto;
+    position: relative;
 }
 
 thead {
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(27, 27, 27);
+    color: #fff;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: rgb(27, 27, 27);
 }
 
 th, td {
@@ -29,15 +37,24 @@ th, td {
     padding: 10px;
 }
 
-td {
+tr:hover {
+    border: 2px solid black;
+}
 
+td {
+    
     padding: 20px;
 }
 
 tfoot {
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(27, 27, 27);
+    color: white;
 }
 
 .num {
     text-align: right;
+}
+
+tbody > tr:nth-child(2n){
+    background-color: rgb(235, 235, 235);
 }
